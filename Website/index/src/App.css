@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+*{
+  font-family: 'Space Grotesk', sans-serif;
+}
+button{
+  color: white;
+}
+h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #29363D;
+}
+a{
+  font-style: normal;
+}
+h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #29363D;
+}
+h4{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #656B8A;
+}   
+h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #29363D;
+}
+h5{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+h6{ 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #656B8A;
+}
+li{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+li{
+  color: #656B8A;
+  display: flex;
+  align-items: center;
+}
+li img{
+  padding-right: 3%;
+}
+li a{
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px !important;
+  cursor: pointer;
+}
+li a:hover{
+  text-decoration: underline;
+}
+.shift .css-sghohy-MuiButtonBase-root-MuiButton-root{
+  padding: 16px !important;
+  border-radius: 8px;
+}
+.sidebar-link {
+  display: block;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+  width: 100%;
+}
+
+.sidebar-link.active {
+  background-color: #ccc;
+}
